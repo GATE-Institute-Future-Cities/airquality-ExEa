@@ -1,4 +1,5 @@
 Project **"Air Quality Monitoring"**
+
 Project Overview
 This project focuses on gathering and processing air quality data from stations operated by the Executive Environmental Agency (IAOS) into a database. The implemented scraper code downloads data from the IAOS platform for each air quality factor (e.g., temperature, NO2, etc.) separately for the previous day. The collected data is then aggregated into a CSV file for each element. The code handles data from five stations (Sofia, Pavlovo, Hipodruma, Druzhba, Mladost). It accounts for the temporal characteristics of the data, automatically filling missing entries with predefined values.
 
